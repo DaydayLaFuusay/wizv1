@@ -1,0 +1,26 @@
+[
+    {
+        "question": "Which tool can be used for phishing prevention?",
+        "optionA": "Gmail",
+        "optionB": "Microsoft Word",
+        "optionC": "Adobe Photoshop",
+        "optionD": "Spotify",
+        "correctOption": "optionA"
+    },
+    {
+        "question": "What is the most common cause of data breaches?",
+        "optionA": "Natural disasters",
+        "optionB": "Phishing attacks",
+        "optionC": "Power outages",
+        "optionD": "Hardware failure",
+        "correctOption": "optionB"
+    },
+    {
+        "question": "What is the best strategy against phishing attacks?",
+        "optionA": "Prevention",
+        "optionB": "Remediation",
+        "optionC": "Ignorance",
+        "optionD": "Acceptance",
+        "correctOption": "optionA"
+    }
+]

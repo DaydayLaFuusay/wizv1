@@ -1,0 +1,34 @@
+[
+    {
+        "question": "What is the average financial cost of a phishing attack for a mid-size company?",
+        "optionA": "$1.6 million",
+        "optionB": "$500,000",
+        "optionC": "$2.5 million",
+        "optionD": "A lifetime supply of fish",
+        "correctOption": "optionA"
+    },
+    {
+        "question": "What percentage of phishing messages get opened by targeted users?",
+        "optionA": "10%",
+        "optionB": "30%",
+        "optionC": "50%",
+        "optionD": "100%",
+        "correctOption": "optionB"
+    },
+    {
+        "question": "What was the most common type of cybercrime in 2020?",
+        "optionA": "Ransomware",
+        "optionB": "Phishing",
+        "optionC": "Malware",
+        "optionD": "Cyberbullying",
+        "correctOption": "optionB"
+    },
+    {
+        "question": "Who typically carries out phishing attacks?",
+        "optionA": "Cybercriminals",
+        "optionB": "Government agencies",
+        "optionC": "IT professionals",
+        "optionD": "Aquaman",
+        "correctOption": "optionA"
+    }
+]

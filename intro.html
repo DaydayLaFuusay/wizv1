@@ -1,0 +1,119 @@
+<head><meta content='width=device-width, initial-scale=1' name='viewport' /><script src='https://code.jquery.com/jquery-1.11.3.min.js'></script><script>$(function(){$('#includeHtml').load('nav_footer.html');});</script><link rel='stylesheet' href='styles3.css'><link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'></head><body onload='NextQuestion(0)'><div class='part_header'><div class='part_header_row_1'><div class='part_header_title'>Phishing Prevention Training for IT and Developers</div></div><div class='part_header_row_2'><div class='part_header_author'><strong>Nick Becker</strong></div><div class='part_header_part'>LESSON 1 OF 5</div></div></div><div class='wide_image'><img style='width:100%' src='/sacha/html/images/A picture depicting a hacker trying to steal data .jpg'></div><div class='title_sentence'><h2><b>Welcome to the Digital Battlefield</b></h2><p>Imagine being a soldier in a digital battlefield, where the enemy is invisible and attacks are unpredictable. That's the world of IT and developers dealing with phishing threats.</p></div><div class='title_sentence'><h2><b>Why this Training?</b></h2><p>Phishing is a constant threat in the digital world, and it's not just about clicking the wrong email anymore. This training is specifically designed for IT and developers in the aerospace and defense industry, focusing on the use of technology tools like Gmail, Forcepoint, and Asana in phishing prevention.</p></div><div class='important' style='margin-left:0%;margin-right:0%;'><ul><li><span>1</span> According to the FBI, phishing was the most common type of cybercrime in 2020.</li><li><span>2</span> A report from Verizon found that 30% of phishing messages get opened by targeted users.</li><li><span>3</span> The average financial cost of a phishing attack for a mid-size company is $1.6 million, according to a report by Proofpoint.</li></ul></div><div class='quote'><div class='quote_img'><img style='width:100%' src='/sacha/html/images/iIf phishing were a fish, it would be a shark, .jpg'></div><div class='quote_text'>'<i>'If phishing were a fish, it would be a shark, constantly evolving and always hungry for data.'</i> - <b>A fictional cybersecurity expert</b>'</div></div><div class='title_sentence'><h2><b>The Rising Tide of Phishing</b></h2><p>Phishing attacks are becoming more sophisticated and targeted, posing a significant risk to organizations. For the aerospace and defense industry, the stakes are even higher due to the sensitive nature of the data. Failure to prevent phishing attacks can lead to financial losses, damage to reputation, and potential legal consequences. Moreover, the risk is not just about compliance, but also about the potential harm caused by poor execution of phishing prevention measures.</p></div><div class='next_step'><h2>Now that we understand the importance and risks of phishing, let's dive into the training and learn how to prevent it.</h2></div><div class='title_sentence'><h2><b>The Phishing Predators</b></h2><p>Phishing attacks are typically carried out by cybercriminals seeking to steal sensitive data. These attackers are skilled in social engineering, deception, and exploiting human vulnerabilities. They often target IT and developers, who have access to critical systems and data.</p></div><div class='title_sentence'><h2><b>The Anatomy of a Phishing Attack</b></h2><p>Here's how a typical phishing attack might look like:</p></div><div class='important' style='margin-left:25%;margin-right:25%;'><ul><li><span>1</span> An employee receives an email that appears to be from a trusted source.</li><li><span>2</span> The email contains a link to a fake website that mimics a legitimate one.</li><li><span>3</span> The employee enters their login credentials on the fake website.</li><li><span>4</span> The attacker now has access to the employee's account and any associated data.</li></ul></div><div class='quote'><div class='quote_img'><img style='width:100%' src='/sacha/html/images/iPhishing is a major threat because it exploits.jpg'></div><div class='quote_text'>'<i>'Phishing is a major threat because it exploits the weakest link in the security chain: the human element.'</i> - <b>Kevin Mitnick, cybersecurity consultant and former hacker</b>'</div></div>
+    <main>
+        <!-- creating a modal for when quiz ends -->
+        <div class="modal-container" id="score-modal">
+    
+            <div class="modal-content-container">
+    
+                <h1>Congratulations, Quiz Completed.</h1>
+    
+                <div class="grade-details">
+                    <p>Attempts : 10</p>
+                    <p>Wrong Answers : <span id="wrong-answers"></span></p>
+                    <p>Right Answers : <span id="right-answers"></span></p>
+                    <p>Grade : <span id="grade-percentage"></span>%</p>
+                    <p ><span id="remarks"></span></p>
+                </div>
+    
+                <div class="modal-button-container">
+                    <button onclick="closeScoreModal()">Continue</button>
+                </div>
+    
+            </div>
+        </div>
+    <!-- end of modal of quiz details-->
+    
+        <div class="game-quiz-container">
+    
+            <div class="game-details-container">
+                <h1>Score : <span id="player-score"></span> /  4 </h1>
+                <h1> Question : <span id="question-number"></span> / 4</h1>
+            </div>
+    
+            <div class="game-question-container">
+                <h1 id="display-question"></h1>
+            </div>
+    
+            <div class="game-options-container">
+    
+               <div class="modal-container" id="option-modal">
+    
+                    <div class="modal-content-container">
+                         <h1>Please Pick An Option</h1>
+    
+                         <div class="modal-button-container">
+                            <button onclick="closeOptionModal()">Continue</button>
+                        </div>
+    
+                    </div>
+    
+               </div>
+    
+                <span>
+                    <input type="radio" id="option-one" name="option" class="radio" value="optionA" />
+                    <label for="option-one" class="option" id="option-one-label"></label>
+                </span>
+    
+    
+                <span>
+                    <input type="radio" id="option-two" name="option" class="radio" value="optionB" />
+                    <label for="option-two" class="option" id="option-two-label"></label>
+                </span>
+    
+    
+                <span>
+                    <input type="radio" id="option-three" name="option" class="radio" value="optionC" />
+                    <label for="option-three" class="option" id="option-three-label"></label>
+                </span>
+    
+    
+                <span>
+                    <input type="radio" id="option-four" name="option" class="radio" value="optionD" />
+                    <label for="option-four" class="option" id="option-four-label"></label>
+                </span>
+    
+    
+            </div>
+    
+            <div class="next-button-container">
+                <button onclick="handleNextQuestion()">Next Question</button>
+            </div>
+    
+        </div>
+    </main>
+    <div class="container">
+        <div class="carousel">
+            <input type="radio" name="slides" checked="checked" id="slide-1"><input type="radio" name="slides" id="slide-2"><input type="radio" name="slides" id="slide-3"><ul class="carousel__slides"><li class="carousel__slide">
+                    <figure>
+                        <div>
+                            <img src="/sacha/html/images/In 2016, a spear-phishing attack on the Democratic.jpg" alt="">
+                        </div>
+                        <figcaption>
+                            In 2016, a spear-phishing attack on the Democratic National Committee led to the theft of sensitive emails.                           
+                        </figcaption>
+                    </figure>
+                </li><li class="carousel__slide">
+                    <figure>
+                        <div>
+                            <img src="/sacha/html/images/In 2020, Twitter faced a massive phishing attack t.jpg" alt="">
+                        </div>
+                        <figcaption>
+                            In 2020, Twitter faced a massive phishing attack that compromised high-profile accounts, including those of Elon Musk and Barack Obama.                           
+                        </figcaption>
+                    </figure>
+                </li><li class="carousel__slide">
+                    <figure>
+                        <div>
+                            <img src="/sacha/html/images/In 2017, a phishing attack on the healthcare provi.jpg" alt="">
+                        </div>
+                        <figcaption>
+                            In 2017, a phishing attack on the healthcare provider Anthem resulted in the theft of nearly 80 million patient records.                           
+                        </figcaption>
+                    </figure>
+                </li></ul><ul class="carousel__thumbnails"><li>
+                    <label for="slide-1"><img src="/sacha/html/images/In 2016, a spear-phishing attack on the Democratic.jpg" alt=""></label>
+                </li><li>
+                    <label for="slide-2"><img src="/sacha/html/images/In 2020, Twitter faced a massive phishing attack t.jpg" alt=""></label>
+                </li><li>
+                    <label for="slide-3"><img src="/sacha/html/images/In 2017, a phishing attack on the healthcare provi.jpg" alt=""></label>
+                </li></ul></div></div><div id='includeHtml'></div></body><script src='code.js'></script>

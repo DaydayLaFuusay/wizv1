@@ -1,0 +1,42 @@
+[
+    {
+        "question": "What is the first step when you suspect a phishing attack?",
+        "optionA": "Respond to the email",
+        "optionB": "Click on the link",
+        "optionC": "Identify the phishing attack",
+        "optionD": "Ignore the email",
+        "correctOption": "optionC"
+    },
+    {
+        "question": "Who should you report a phishing attempt to?",
+        "optionA": "Your friends",
+        "optionB": "Your IT department",
+        "optionC": "The police",
+        "optionD": "The sender",
+        "correctOption": "optionB"
+    },
+    {
+        "question": "What should you do if your information has been compromised?",
+        "optionA": "Ignore it",
+        "optionB": "Change your passwords",
+        "optionC": "Respond to the email",
+        "optionD": "Delete the email",
+        "correctOption": "optionB"
+    },
+    {
+        "question": "What is a sign of a phishing attack?",
+        "optionA": "Official email address",
+        "optionB": "Personalized greeting",
+        "optionC": "Spelling mistakes",
+        "optionD": "Correct grammar",
+        "correctOption": "optionC"
+    },
+    {
+        "question": "What should you monitor after a phishing attack?",
+        "optionA": "Your email",
+        "optionB": "Your social media",
+        "optionC": "Your accounts",
+        "optionD": "Your computer",
+        "correctOption": "optionC"
+    }
+]
