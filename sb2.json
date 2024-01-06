@@ -1,26 +1,26 @@
 [
     {
-        "question": "Which tool can be used for phishing prevention?",
-        "optionA": "Gmail",
-        "optionB": "Microsoft Word",
-        "optionC": "Adobe Photoshop",
-        "optionD": "Spotify",
+        "question": "What is phishing?",
+        "optionA": "A type of online scam where criminals send an email that appears to be from a legitimate company and ask you to provide sensitive information",
+        "optionB": "A type of fishing where a net is used to catch fish",
+        "optionC": "A method of protecting sensitive information online",
+        "optionD": "A type of malware that infects your computer",
         "correctOption": "optionA"
     },
     {
-        "question": "What is the most common cause of data breaches?",
-        "optionA": "Natural disasters",
-        "optionB": "Phishing attacks",
-        "optionC": "Power outages",
-        "optionD": "Hardware failure",
-        "correctOption": "optionB"
+        "question": "Which of the following is a tool that can help protect against phishing attacks?",
+        "optionA": "Gmail",
+        "optionB": "Microsoft Word",
+        "optionC": "Google Chrome",
+        "optionD": "All of the above",
+        "correctOption": "optionA"
     },
     {
-        "question": "What is the best strategy against phishing attacks?",
-        "optionA": "Prevention",
-        "optionB": "Remediation",
-        "optionC": "Ignorance",
-        "optionD": "Acceptance",
+        "question": "Why is it important to avoid phishing attacks?",
+        "optionA": "They can lead to financial loss and data breaches",
+        "optionB": "They can be annoying",
+        "optionC": "They can slow down your computer",
+        "optionD": "All of the above",
         "correctOption": "optionA"
     }
 ]

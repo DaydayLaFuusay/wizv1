@@ -1,42 +1,42 @@
 [
     {
-        "question": "What is the first step when you suspect a phishing attack?",
-        "optionA": "Respond to the email",
-        "optionB": "Click on the link",
-        "optionC": "Identify the phishing attack",
-        "optionD": "Ignore the email",
+        "question": "What is the first step you should take if you suspect you have received a phishing email?",
+        "optionA": "Click on the link to verify",
+        "optionB": "Report to your IT department",
+        "optionC": "Ignore the email",
+        "optionD": "Reply to the email",
+        "correctOption": "optionB"
+    },
+    {
+        "question": "What should you do with your passwords if you suspect a phishing attack?",
+        "optionA": "Keep them the same",
+        "optionB": "Share them with your team",
+        "optionC": "Change them immediately",
+        "optionD": "Write them down",
         "correctOption": "optionC"
     },
     {
-        "question": "Who should you report a phishing attempt to?",
+        "question": "Who should you report a suspected phishing attack to?",
         "optionA": "Your friends",
         "optionB": "Your IT department",
-        "optionC": "The police",
-        "optionD": "The sender",
+        "optionC": "The sender of the email",
+        "optionD": "No one",
         "correctOption": "optionB"
     },
     {
-        "question": "What should you do if your information has been compromised?",
-        "optionA": "Ignore it",
-        "optionB": "Change your passwords",
-        "optionC": "Respond to the email",
-        "optionD": "Delete the email",
-        "correctOption": "optionB"
+        "question": "What should you monitor after a suspected phishing attack?",
+        "optionA": "Your social media accounts",
+        "optionB": "Your work email",
+        "optionC": "Your personal and financial accounts",
+        "optionD": "All of the above",
+        "correctOption": "optionD"
     },
     {
-        "question": "What is a sign of a phishing attack?",
-        "optionA": "Official email address",
-        "optionB": "Personalized greeting",
-        "optionC": "Spelling mistakes",
-        "optionD": "Correct grammar",
-        "correctOption": "optionC"
-    },
-    {
-        "question": "What should you monitor after a phishing attack?",
-        "optionA": "Your email",
-        "optionB": "Your social media",
-        "optionC": "Your accounts",
-        "optionD": "Your computer",
+        "question": "What additional steps might you need to take after a phishing attack?",
+        "optionA": "Attend a security awareness training",
+        "optionB": "Install a new security software",
+        "optionC": "Both A and B",
+        "optionD": "None of the above",
         "correctOption": "optionC"
     }
 ]
