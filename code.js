@@ -1,12 +1,10 @@
 var questions;
-console.log(window.location.pathname);
+
 function Func() {
-   fetch(window.location.pathname.slice(0, -5) + ".json")
-  .then(res => res.json())
+   return fetch(window.location.pathname.slice(0, -5) + ".json")
+  .then(res => {return res.json()})
   .then(data => {questions = data;})
 }
-
-Func();
 
 let shuffledQuestions = []
 
